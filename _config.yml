@@ -28,7 +28,7 @@ brand : realtime-fmri-blog
 description : Real Time fMRI for the People! 
 url : http://realtime-fmri-blog.github.io/realtime-fmri-blog
 email : clemens.c.c.bauer@gmail.com
-author: Clemens Bauer
+author : Clemens Bauer
 
 
 # The following is a list of files to exclude from inclusion in the
