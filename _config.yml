@@ -25,10 +25,10 @@
 # author : Dereck Curry
 name : gh-pages-blog
 brand : gh-pages-blog
-description : The Official gh-pages-blog GitHub Page
-url : http://thedereck.github.io/gh-pages-blog
-email : thedereck@thedereck.com
-author: Dereck Curry
+description : RealTime fMRI Blog
+url : http://realtime-fmri-blog.github.io/gh-pages-blog
+email : realtime.fmri.blog@thedereck.com
+author: Clements Bauer
 
 
 # The following is a list of files to exclude from inclusion in the
