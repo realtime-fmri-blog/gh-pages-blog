@@ -1,7 +1,7 @@
 ---
 layout : page
 title : User Manual
-subtitle : Obviously a work in progress
+subtitle : How to post issues and other interesting things...
 order : 1
 ---
 

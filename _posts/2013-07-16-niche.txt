@@ -1,0 +1,24 @@
+---
+layout : post
+title : The steps of rt-fMRI since 1995
+subtitle : The first method for real-time fMRI was presented by <a href="http://onlinelibrary.wiley.com/doi/10.1002/mrm.1910330213/abstract?deniedAccessCustomisedMessage=&userIsAuthenticated=false">Cox et al. (1995)</a> . 
+
+
+
+category : rtfmri beginning
+author : CCB
+tags :
+  - initial release
+---
+
+
+<img src="img/rtfmri1995.jpg" />
+
+<br /> 
+<br /> 
+
+
+The frequency of rt-fMRI hits on PubMed is exponentially increasing.
+
+<br /> 
+<br /> 

@@ -26,7 +26,8 @@
 name : Real Time fMRI Blog
 brand : realtime-fmri-blog
 description : Real Time fMRI for the People!
-url : http://realtime-fmri-blog.github.io/realtime-fmri-blog
+#url : http://realtime-fmri-blog.github.io/realtime-fmri-blog
+url : http://localhost/~bodhi/realtime-fmri-blog/_site/
 email : clemens.c.c.bauer@gmail.com
 author: Clemens Bauer
 
@@ -173,7 +174,7 @@ sections:
     content :
       enabled : true
     social_links :
-      enabled : true
+      enabled : false
     github_projects :
       enabled : true
   social_links :
@@ -183,11 +184,11 @@ sections:
   external_links :
     enabled : true
   archive :
-    enabled : false
+    enabled : true
   categories :
-    enabled : false
+    enabled : true
   tags :
-    enabled : false
+    enabled : true
 
 
 # The navbar settings determine what menus are displayed on the navbar at the
@@ -212,11 +213,11 @@ sections:
 #     enabled : false
 navbar :
   archive :
-    enabled : true
+    enabled : false
   categories :
-    enabled : true
+    enabled : false
   tags :
-    enabled : true
+    enabled : false
   github_projects :
     enabled : false
   social_links :
@@ -323,12 +324,12 @@ social_links :
 #   - project :
 #     name : gh-pages-blog
 #     url : https://github.com/thedereck/gh-pages-blog
-github_projects :
-  header : Fork Me!
-  projects :
-  - project :
-    name : gh-pages-blog
-    url : https://github.com/thedereck/gh-pages-blog
+#github_projects :
+ # header : Fork Me!
+ # projects :
+#  - project :
+#    name : gh-pages-blog
+#    url : https://github.com/thedereck/gh-pages-blog
 
 
 # These are links to other websites outside of the blog that are not part of
@@ -354,12 +355,17 @@ github_projects :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : Great gh-pages-blog Sites!
+  header : rt-fMRI software Sites!
   links :
     - link :
-      name : The Dereck
-      url: http://thedereck.github.io
-
+      name : AFNI - Analysis of Functional NeuroImages
+      url: http://afni.nimh.nih.gov/afni/
+    - link :
+      name : 3dsvm - an SVM-Light plugin for AFNI
+      url: http://www.lacontelab.org/3dsvm.htm
+    - link :
+      name : Real-Time fMRI with Turbo-BrainVoyager 2.0
+      url: http://www.brainvoyager.com/bvresources/RainersBVBlog/files/tbv20.html
 
 # These are the bootstrap settings. These bootstrap settings will control both
 # the theme and responsive settings of this site.
@@ -383,10 +389,10 @@ external_links :
 # responsive : js : src - The javascript to use for the responsive
 # bootstrap. If you're going to use responsive css, you also need to use
 # a responsive bootstrap js.
-#
+#bootstrap.min.css 
 # Here's an example configuration:
 # bootstrap:
-#   css : bootstrap.min.css
+#   css : bootstrap.min_cyb.css 
 #   responsive :
 #     enabled : true
 #     css : bootstrap-responsive.min.css
@@ -394,7 +400,7 @@ external_links :
 #     enabled : true
 #     src : bootstrap.min.js
 bootstrap:
-  css : bootstrap.min.css
+  css : bootstrap.min_slate.css
   responsive :
     enabled : true
     css : bootstrap-responsive.min.css
@@ -547,3 +553,5 @@ analytics :
   google_analytics :
     enabled : true
     tracking_id : UA-7954274-6
+post_image:
+    dimensions: '870x'
