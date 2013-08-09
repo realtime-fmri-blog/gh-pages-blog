@@ -26,8 +26,8 @@
 name : Real Time fMRI Blog
 brand : realtime-fmri-blog
 description : Real Time fMRI for the People!
-url : http://realtime-fmri-blog.github.io/realtime-fmri-blog
-#url : http://localhost/~bodhi/realtime-fmri-blog/_site/
+#url : http://realtime-fmri-blog.github.io/realtime-fmri-blog
+url : http://localhost/~bodhi/realtime-fmri-blog/_site/
 email : clemens.c.c.bauer@gmail.com
 author: Clemens Bauer
 
@@ -212,10 +212,8 @@ sections:
 #   external_links :
 #     enabled : false
 navbar :
-  archive :
-    enabled : false
-  categories :
-    enabled : false
+  Networking :
+    enabled : true
   tags :
     enabled : false
   github_projects :
@@ -400,7 +398,7 @@ external_links :
 #     enabled : true
 #     src : bootstrap.min.js
 bootstrap:
-  css : bootstrap.min_slate.css
+  css : bootstrap.min_simp.css
   responsive :
     enabled : true
     css : bootstrap-responsive.min.css

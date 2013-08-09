@@ -5,13 +5,7 @@
 <html lang="en">
 
 
-<head><title>Real Time fMRI Blog - This is the beginning of the rtfmri blog!</title><meta name="author" content='Clemens Bauer'><meta name="author" content='Cameron Craddock'><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="http://localhost/~bodhi/realtime-fmri-blog/_site//css/bootstrap.min_simp.css" rel="stylesheet" media="screen"><link href="http://localhost/~bodhi/realtime-fmri-blog/_site//css/gh-pages-blog.css" rel="stylesheet" media="screen"><link href="http://localhost/~bodhi/realtime-fmri-blog/_site//css/bootstrap-responsive.min.css" rel="stylesheet"><link rel="stylesheet" href="http://localhost/~bodhi/realtime-fmri-blog/_site//css/font-awesome.min.css"><link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost/~bodhi/realtime-fmri-blog/_site//rss.xml" /><link rel="icon" type="image/png" href="http://localhost/~bodhi/realtime-fmri-blog/_site//img/ghpb-favicon.png" /></head>
-
-
-
-
-
-
+<head><title>Real Time fMRI Blog - Tools</title><meta name="author" content='Clemens Bauer'><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="http://localhost/~bodhi/realtime-fmri-blog/_site//css/bootstrap.min_simp.css" rel="stylesheet" media="screen"><link href="http://localhost/~bodhi/realtime-fmri-blog/_site//css/gh-pages-blog.css" rel="stylesheet" media="screen"><link href="http://localhost/~bodhi/realtime-fmri-blog/_site//css/bootstrap-responsive.min.css" rel="stylesheet"><link rel="stylesheet" href="http://localhost/~bodhi/realtime-fmri-blog/_site//css/font-awesome.min.css"><link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost/~bodhi/realtime-fmri-blog/_site//rss.xml" /><link rel="icon" type="image/png" href="http://localhost/~bodhi/realtime-fmri-blog/_site//img/ghpb-favicon.png" /></head>
 
 
 
@@ -23,29 +17,38 @@
 <div class="container">
 <div class="row">
 <div class="span8">
-<div class="ghpb-post">
 
 
-<div class="page-header"><h1>This is the beginning of the rtfmri blog!</h1><h4>A collection of documents, demos and software to enable real time fmri</h4><div class="row"><small><div class="span3 offset1"><i class="icon-user"></i> Authored by Cameron Craddock.<br><i class="icon-pencil"></i> Published on 15 July 2013.<br></div><div class="span3"><i class="icon-folder-open"></i> Category: <a href="http://localhost/~bodhi/realtime-fmri-blog/_site//filter.html?category=rtfmri___demo">Rtfmri demo</a><br><i class="icon-tags"></i> Tags: <a href="http://localhost/~bodhi/realtime-fmri-blog/_site//filter.html?tag=initial___release">initial release</a><br></div><div class="span1"></div></small></div></div>
+
+<div class="page-header"><h1>Tools</h1><h4>from experiment design to implementation and analysis</h4></div>
 
 
-<p>Things I would like to see:</p>
+<h2 id='experiment_design'>Experiment Design</h2>
 
-<ol>
-<li>code</li>
+<p>A great way to start your experiment design is through <a href='http://www.psychopy.org/'>PsychoPy.</a> <br /> <br /> <a href='http://www.psychopy.org/'>PsychoPy</a> is an open-source application to allow the presentation of stimuli and collection of data for a wide range of neuroscience, psychology and psychophysics experiments. It&#8217;s a free, powerful alternative to Presentation(TM) or e-Prime(TM), written in Python (a free alternative to Matlab(TM) ).</p>
 
-<li>walkthroughs</li>
+<p>For example it would be interesting to asses if the performance of your rt-fMRI paradigm has some impact of performance on a rapid visual information processing (RVIP) test for sustained attention conducted outside the scanner before and after.</p>
+<hr />
+<p>Here are some usefull tests that you can use:</p>
 
-<li>discussions of different techniques</li>
-</ol>
+<h3 id='rapid_visual_information_processing_rvp'>Rapid Visual Information Processing (RVP)</h3>
 
-<br>
-<br>
-<div id="disqus_thread"></div>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<p>Rapid Visual Information Processing (RVP) is a test of sustained attention (similar to the Continuous Performance Task) and has proved useful in many studies in which drugs are used to help develop a disease model. It is sensitive to dysfunction in the parietal and frontal lobe areas of the brain and is also a sensitive measure of general performance.</p>
 
-</div>
+<h4 id='task'>Task</h4>
+
+<p>A white box appears in the centre of the computer screen, inside which digits, from 2 to 9, appear in a pseudo-random order, at the rate of 100 digits per minute. Participants are requested to detect target sequences of digits (for example, 2-4-6, 3-5-7, 4-6-8) and to register responses using the press pad.</p>
+
+<h4 id='outcome_measures'>Outcome Measures</h4>
+
+<p>The nine RVP outcome measures cover latency, probabilities and sensitivity (calculated using Signal Detection Theory), and hits, misses, false alarms and rejections.</p>
+
+<h4 id='rvip_looks_like_this'>RVIP looks like this:</h4>
+<button type='submit' class='button'>RVIP</button>
+<p>embed video?</p>
+
+<p>You can download the code for RVIP <a>here.</a></p>
+<script src='videojs.playlist.js' />
 </div>
 <div class="span3 offset1">
 
@@ -65,9 +68,6 @@
 
 
 <script src="http://localhost/~bodhi/realtime-fmri-blog/_site//js/jquery-1.9.1.min.js"></script><script src="http://localhost/~bodhi/realtime-fmri-blog/_site//js/bootstrap.min.js"></script><script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-7954274-6']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script><script type="text/javascript">var disqus_shortname = 'ghpagesblog';(function () {var s = document.createElement('script');s.async = true;s.type = 'text/javascript';s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);}());</script>
-
-
-<script type="text/javascript">var disqus_shortname = 'ghpagesblog';(function() {var dsq = document.createElement('script');dsq.type = 'text/javascript';dsq.async = true;dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);})();</script>
 </body>
 
 </html>
