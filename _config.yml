@@ -398,12 +398,12 @@ external_links :
 #     enabled : true
 #     src : bootstrap.min.js
 bootstrap:
-  css : bootstrap.min_simp.css
+  css : bootstrap.min.css
   responsive :
     enabled : true
     css : bootstrap-responsive.min.css
   js :
-    enabled : true
+    enabled : false
     src : bootstrap.min.js
 
 
