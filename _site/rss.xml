@@ -2,14 +2,14 @@
 	<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 		<channel>
 			<title>Real Time fMRI Blog</title>
-			<link>http://localhost/~bodhi/realtime-fmri-blog/_site/</link>
+			<link>http://realtime-fmri-blog.github.io/realtime-fmri-blog</link>
 			<description>Real Time fMRI for the People!</description>
 			<language>en-us</language>
-			<pubDate>Wed, 28 Aug 2013 15:09:12 EDT</pubDate>
-			<lastBuildDate>Wed, 28 Aug 2013 15:09:12 EDT</lastBuildDate>
+			<pubDate>Wed, 28 Aug 2013 15:13:57 EDT</pubDate>
+			<lastBuildDate>Wed, 28 Aug 2013 15:13:57 EDT</lastBuildDate>
 			<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 			<generator>http://github.com/thedereck/gh-pages-blog</generator>
-			<atom:link href="http://localhost/~bodhi/realtime-fmri-blog/_site//rss.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://realtime-fmri-blog.github.io/realtime-fmri-blog/rss.xml" rel="self" type="application/rss+xml" />
 
 			
 
@@ -26,12 +26,12 @@
 					
 						<title>Real Time fMRI for the people</title>
 					
-					<link>http://localhost/~bodhi/realtime-fmri-blog/_site//2013/07/15/rtfmri.html</link>
+					<link>http://realtime-fmri-blog.github.io/realtime-fmri-blog/2013/07/15/rtfmri.html</link>
 
 					
 
 					<pubDate>Mon, 15 Jul 2013 00:00:00 EDT</pubDate>
-					<guid>http://localhost/~bodhi/realtime-fmri-blog/_site//2013/07/15/rtfmri</guid>
+					<guid>http://realtime-fmri-blog.github.io/realtime-fmri-blog/2013/07/15/rtfmri</guid>
 
 					
 
@@ -43,12 +43,12 @@
 					
 						<title>Hello, world!</title>
 					
-					<link>http://localhost/~bodhi/realtime-fmri-blog/_site//2013/03/03/hello-world.html</link>
+					<link>http://realtime-fmri-blog.github.io/realtime-fmri-blog/2013/03/03/hello-world.html</link>
 
 					
 
 					<pubDate>Sun, 03 Mar 2013 00:00:00 EST</pubDate>
-					<guid>http://localhost/~bodhi/realtime-fmri-blog/_site//2013/03/03/hello-world</guid>
+					<guid>http://realtime-fmri-blog.github.io/realtime-fmri-blog/2013/03/03/hello-world</guid>
 
 					
 
