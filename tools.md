@@ -30,14 +30,13 @@ A white box appears in the centre of the computer screen, inside which digits, f
 #### Outcome Measures ####
 The nine RVP outcome measures cover latency, probabilities and sensitivity (calculated using Signal Detection Theory), and hits, misses, false alarms and rejections.
 
-#### RVIP looks like this: ####
+#### RVIP example: ####
 
 
-<button class="button" type="submit">RVIP</button>
 embed video?
 
 
-You can download the code for RVIP <a>here.</a>
+You can download the script here <a href="https://github.com/realtime-fmri-blog/realtime_code_examples/archive/master.zip">(RVIP)</a> or visit the  <a href="http://localhost/~bodhi/realtime-fmri-blog/_site//code.html">Code</a> section for more scripts. 
 
 
 
