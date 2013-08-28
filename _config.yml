@@ -27,7 +27,7 @@ name : Real Time fMRI Blog
 brand : realtime-fmri-blog
 description : Real Time fMRI for the People! 
 url : realtime-fmri-blog.github.io/realtime-fmri-blog
-#url : http://localhost/~bodhi/realtime-fmri-blog/_site/
+url : http://localhost/~bodhi/realtime-fmri-blog/_site/
 email : clemens.c.c.bauer@gmail.com
 author : Clemens Bauer
 
@@ -372,7 +372,7 @@ external_links :
       url: http://thedereck.github.io
 
 
-# These are the bootstrap settings. These bootstrap settings will control both
+# These are the strap settings. These bootstrap settings will control both
 # the theme and responsive settings of this site.
 #
 # css - The name of the bootstrap css. Using one of the min css should be
@@ -405,13 +405,13 @@ external_links :
 #     enabled : true
 #     src : bootstrap.min.js
 bootstrap:
-  css : bootstrap.min.css
+  css : bootstrap_SpaceLab.min.css
   responsive :
     enabled : true
     css : bootstrap-responsive.min.css
   js :
     enabled : true
-    src : bootstrap.min.js
+    src : bootstrap_SpaceLab.min.js
 
 
 # These are the configuration settings for the jquery javascript. JQuery is
