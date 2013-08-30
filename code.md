@@ -6,12 +6,11 @@ order : 4
 ---
 
 ### Experiment Design scripts
+<a href="https://github.com/realtime-fmri-blog/realtime_code_examples/archive/master.zip" class="button big">RVIP</a>
 
 
-<button href="https://github.com/realtime-fmri-blog/realtime_code_examples/archive/master.zip" class="button big">RVIP</button>
   
   Rapid Visual Information Processing PsychoPy.
-  
   
   
   
