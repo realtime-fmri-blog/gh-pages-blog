@@ -30,7 +30,7 @@ A white box appears in the centre of the computer screen, inside which digits, f
 #### Outcome Measures ####
 The nine RVP outcome measures cover latency, probabilities and sensitivity (calculated using Signal Detection Theory), and hits, misses, false alarms and rejections.
 
-#### RVIP example: ####
+#### RVIP training example: ####
 
 
 [![RVIP](img/rvip.jpg)](http://www.youtube.com/watch?v=JKmvh3L9ZcI&feature=youtu.be)
