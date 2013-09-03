@@ -403,7 +403,7 @@ bootstrap:
     enabled : true
     css : bootstrap-responsive.min.css
   js :
-    enabled : false
+    enabled : true
     src : bootstrap.min.js
 
 
@@ -438,7 +438,7 @@ jquery:
 #   enabled : true
 #   css : font-awesome.min.css
 font_awesome :
-  enabled : true
+  enabled : false
   css : font-awesome.min.css
 
 

@@ -5,8 +5,8 @@
 			<link>http://localhost/~bodhi/realtime-fmri-blog/_site/</link>
 			<description>Real Time fMRI for the People!</description>
 			<language>en-us</language>
-			<pubDate>Tue, 03 Sep 2013 14:14:36 EDT</pubDate>
-			<lastBuildDate>Tue, 03 Sep 2013 14:14:36 EDT</lastBuildDate>
+			<pubDate>Tue, 03 Sep 2013 17:27:58 EDT</pubDate>
+			<lastBuildDate>Tue, 03 Sep 2013 17:27:58 EDT</lastBuildDate>
 			<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 			<generator>http://github.com/thedereck/gh-pages-blog</generator>
 			<atom:link href="http://localhost/~bodhi/realtime-fmri-blog/_site//rss.xml" rel="self" type="application/rss+xml" />
@@ -67,13 +67,15 @@
 					
 
 					<description><![CDATA[  ]]></description>
-					<content:encoded><![CDATA[ <h4>The first method for real-time fMRI was presented by <a href="http://onlinelibrary.wiley.com/doi/10.1002/mrm.1910330213/abstract">Cox et al. (1995)</a> .</h4><img src="img/rtfmri1995.jpg" />
+					<content:encoded><![CDATA[ <h4>The first method for real-time fMRI was presented by <a href="http://onlinelibrary.wiley.com/doi/10.1002/mrm.1910330213/abstract">Cox et al. (1995)</a> .</h4>Since then the field of rt-fMRI is slowly emerging with a slow increase in published articles in the last five years. 
+
+<img src="img/Rplot1995.jpg" />
 
 <br /> 
 <br /> 
 
 
-The frequency of rt-fMRI hits on PubMed is exponentially increasing.
+
 
 <br /> 
 <br /> 
