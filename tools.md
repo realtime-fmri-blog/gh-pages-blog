@@ -35,6 +35,8 @@ The nine RVP outcome measures cover latency, probabilities and sensitivity (calc
 
 embed video?
 
+<video src="RVIP.mov" width="320" height="200" controls preload></video>
+
 
 You can download the script here <a href="https://github.com/realtime-fmri-blog/realtime_code_examples/archive/master.zip">(RVIP)</a> or visit the  <a href="http://localhost/~bodhi/realtime-fmri-blog/_site//code.html">Code</a> section for more scripts. 
 
