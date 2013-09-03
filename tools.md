@@ -33,7 +33,7 @@ The nine RVP outcome measures cover latency, probabilities and sensitivity (calc
 #### RVIP example: ####
 
 
-<video src="RVIP.mov" width="320" height="200" controls preload></video>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 
 You can download the script here <a href="https://github.com/realtime-fmri-blog/realtime_code_examples/archive/master.zip">(RVIP)</a> or visit the  <a href="http://localhost/~bodhi/realtime-fmri-blog/_site//code.html">Code</a> section for more scripts. 
