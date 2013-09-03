@@ -201,8 +201,8 @@ sections:
 # navbar :
 #   archive :
 #     enabled : false
-#   categories :
-#     enabled : false
+ # categories :
+  #  enabled : true
 #   tags :
 #     enabled : false
 #   github_projects :
@@ -217,7 +217,7 @@ navbar :
   tags :
     enabled : false
   github_projects :
-    enabled : false
+    enabled : true
   social_links :
     enabled : false
   external_links :
@@ -438,7 +438,7 @@ jquery:
 #   enabled : true
 #   css : font-awesome.min.css
 font_awesome :
-  enabled : false
+  enabled : true
   css : font-awesome.min.css
 
 

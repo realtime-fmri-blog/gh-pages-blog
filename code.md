@@ -2,7 +2,7 @@
 layout : page
 title : Code
 subtitle : Examples of scripts for performing realtime fMRI and experiment design.
-order : 4
+order : 2
 ---
 
 ### Experiment Design scripts
