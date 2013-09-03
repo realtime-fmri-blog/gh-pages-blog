@@ -33,8 +33,6 @@ The nine RVP outcome measures cover latency, probabilities and sensitivity (calc
 #### RVIP example: ####
 
 
-embed video?
-
 <video src="RVIP.mov" width="320" height="200" controls preload></video>
 
 
