@@ -405,13 +405,13 @@ external_links :
 #     enabled : true
 #     src : bootstrap.min.js
 bootstrap:
-  css : bootstrap_SpaceLab.min.css
+  css : bootstrap.min.css
   responsive :
     enabled : true
     css : bootstrap-responsive.min.css
   js :
     enabled : true
-    src : bootstrap_SpaceLab.min.js
+    src : bootstrap.min.js
 
 
 # These are the configuration settings for the jquery javascript. JQuery is
