@@ -23,13 +23,13 @@
 # url : http://thedereck.github.io
 # email : thedereck@thedereck.com
 # author : Dereck Curry
-name : Real Time fMRI Blog
-brand : realtime-fmri-blog
+name : Real Time fMRI blog
+brand : real-time fMRI blog
 description : Real Time fMRI for the People! 
-#url : realtime-fmri-blog.github.io/realtime-fmri-blog
-url : http://localhost/~bodhi/realtime-fmri-blog/_site/
+url : http://realtime-fmri-blog.github.io/realtime-fmri-blog/
+#url : http://localhost/~bodhi/realtime-fmri-blog/_site/
 email : clemens.c.c.bauer@gmail.com
-author : Clemens Bauer
+author: Clemens Bauer
 
 
 # The following is a list of files to exclude from inclusion in the
@@ -169,14 +169,14 @@ sections:
   brief_bio :
     enabled : true
     image :
-      enabled : false
-      url : false
+      enabled : true
+      url : http://4.bp.blogspot.com/-BdWGNBPFAUc/Uid8GiBkGUI/AAAAAAAAAFI/i7p0x-aW0H4/s1600/rtfmri.jpg
     content :
       enabled : true
     social_links :
       enabled : false
     github_projects :
-      enabled : true
+      enabled : false
   social_links :
     enabled : false
   github_projects :
@@ -213,11 +213,11 @@ sections:
 #     enabled : false
 navbar :
   archive :
-    enabled : true
+    enabled : false
   categories :
-    enabled : true
+    enabled : false
   tags :
-    enabled : true
+    enabled : false
   github_projects :
     enabled : false
   social_links :
@@ -365,14 +365,21 @@ github_projects :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : More Great gh-pages-blog Sites
+  header : rt-fMRI software Sites!
   links :
     - link :
-      name : The Dereck
-      url: http://thedereck.github.io
+      name : AFNI - Analysis of Functional NeuroImages
+      url: http://afni.nimh.nih.gov/afni/
+    - link :
+      name : 3dsvm - an SVM-Light plugin for AFNI
+      url: http://www.lacontelab.org/3dsvm.htm
+    - link :
+      name : Real-Time fMRI with Turbo-BrainVoyager 2.0
+      url: http://www.brainvoyager.com/bvresources/RainersBVBlog/files/tbv20.html
 
 
-# These are the strap settings. These bootstrap settings will control both
+
+# These are the bootstrap settings. These bootstrap settings will control both
 # the theme and responsive settings of this site.
 #
 # css - The name of the bootstrap css. Using one of the min css should be
@@ -447,6 +454,24 @@ jquery:
 font_awesome :
   enabled : true
   css : font-awesome.min.css
+
+
+# This section of the configuration determins how syntax highlighting is
+# configured and the css file to be used.
+#
+# syntax_highlighting : enabled - Enables or disables the loading of the
+# css to be used for syntax highlighting of code blocks.
+#
+# syntax_highlighting : css - The name of the css file to use for syntax
+# highlighting.
+#
+# Here's an example configuration:
+# syntax_highlighting :
+#   enabled : true
+#   css : syntax.css
+syntax_highlighting :
+  enabled : true
+  css : syntax.css
 
 
 # This section of the configuration determines how the rss 2.0 xml file is
