@@ -25,11 +25,11 @@
 # author : Dereck Curry
 name : Real Time fMRI Blog
 brand : realtime-fmri-blog
-description : Real Time fMRI for the People!
-url : http://realtime-fmri-blog.github.io/realtime-fmri-blog/
-#url : http://localhost/~bodhi/realtime-fmri-blog/_site/
+description : Real Time fMRI for the People! 
+url : realtime-fmri-blog.github.io/realtime-fmri-blog
+url : http://localhost/~bodhi/realtime-fmri-blog/_site/
 email : clemens.c.c.bauer@gmail.com
-author: Clemens Bauer
+author : Clemens Bauer
 
 
 # The following is a list of files to exclude from inclusion in the
@@ -184,11 +184,11 @@ sections:
   external_links :
     enabled : true
   archive :
-    enabled : true
+    enabled : false
   categories :
-    enabled : true
+    enabled : false
   tags :
-    enabled : true
+    enabled : false
 
 
 # The navbar settings determine what menus are displayed on the navbar at the
@@ -201,8 +201,8 @@ sections:
 # navbar :
 #   archive :
 #     enabled : false
- # categories :
-  #  enabled : true
+#   categories :
+#     enabled : false
 #   tags :
 #     enabled : false
 #   github_projects :
@@ -212,12 +212,14 @@ sections:
 #   external_links :
 #     enabled : false
 navbar :
-  Networking :
+  archive :
+    enabled : true
+  categories :
     enabled : true
   tags :
-    enabled : false
-  github_projects :
     enabled : true
+  github_projects :
+    enabled : false
   social_links :
     enabled : false
   external_links :
@@ -278,28 +280,38 @@ navbar :
 #       font_awesome_icon : icon-twitter
 #       url : http://www.twitter.com/_TheDereck_
 social_links :
-  follow_name : Dereck Curry For Updates About gh-pages-blog
+  follow_name : Me
   links :
+    - link :
+      enabled : true
+      name : Facebook
+      font_awesome_icon : icon-facebook
+      url : https://www.facebook.com/
     - link :
       enabled : true
       name : GitHub
       font_awesome_icon : icon-github-alt
-      url : https://github.com/TheDereck
+      url : https://github.com/
     - link :
       enabled : true
       name: Google+
       font_awesome_icon : icon-google-plus
-      url : https://plus.google.com/109660251296662910676?rel=author
+      url : https://plus.google.com/
     - link :
       enabled : true
       name : Linkedin
       font_awesome_icon : icon-linkedin
-      url : http://www.linkedin.com/in/dereckcurry
+      url : http://www.linkedin.com/
+    - link :
+      enabled : true
+      font_awesome_icon : icon-pinterest
+      name : Pinterest
+      url : http://www.pinterest.com
     - link :
       enabled : true
       name : Twitter
       font_awesome_icon : icon-twitter
-      url : http://www.twitter.com/_TheDereck_
+      url : http://www.twitter.com/
 
 
 # These are a list of GitHub projects that the blog owner would like to
@@ -322,12 +334,12 @@ social_links :
 #   - project :
 #     name : gh-pages-blog
 #     url : https://github.com/thedereck/gh-pages-blog
-#github_projects :
- # header : Fork Me!
- # projects :
-#  - project :
-#    name : gh-pages-blog
-#    url : https://github.com/thedereck/gh-pages-blog
+github_projects :
+  header : GitHub Projects
+  projects :
+  - project :
+    name : gh-pages-blog
+    url : https://github.com/thedereck/gh-pages-blog
 
 
 # These are links to other websites outside of the blog that are not part of
@@ -353,19 +365,14 @@ social_links :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : rt-fMRI software Sites!
+  header : More Great gh-pages-blog Sites
   links :
     - link :
-      name : AFNI - Analysis of Functional NeuroImages
-      url: http://afni.nimh.nih.gov/afni/
-    - link :
-      name : 3dsvm - an SVM-Light plugin for AFNI
-      url: http://www.lacontelab.org/3dsvm.htm
-    - link :
-      name : Real-Time fMRI with Turbo-BrainVoyager 2.0
-      url: http://www.brainvoyager.com/bvresources/RainersBVBlog/files/tbv20.html
+      name : The Dereck
+      url: http://thedereck.github.io
 
-# These are the bootstrap settings. These bootstrap settings will control both
+
+# These are the strap settings. These bootstrap settings will control both
 # the theme and responsive settings of this site.
 #
 # css - The name of the bootstrap css. Using one of the min css should be
@@ -387,10 +394,10 @@ external_links :
 # responsive : js : src - The javascript to use for the responsive
 # bootstrap. If you're going to use responsive css, you also need to use
 # a responsive bootstrap js.
-#bootstrap.min.css 
+#
 # Here's an example configuration:
 # bootstrap:
-#   css : bootstrap.min_cyb.css 
+#   css : bootstrap.min.css
 #   responsive :
 #     enabled : true
 #     css : bootstrap-responsive.min.css
@@ -398,13 +405,13 @@ external_links :
 #     enabled : true
 #     src : bootstrap.min.js
 bootstrap:
-  css : bootstrap.min.css
+  css : bootstrap_SpaceLab.min.css
   responsive :
     enabled : true
     css : bootstrap-responsive.min.css
   js :
     enabled : true
-    src : bootstrap.min.js
+    src : bootstrap_SpaceLab.min.js
 
 
 # These are the configuration settings for the jquery javascript. JQuery is
@@ -524,8 +531,8 @@ rss :
 #   shortname : TheDereck
 #   show_comment_count : false
 disqus :
-  enabled : true
-  shortname : ghpagesblog
+  enabled : false
+  shortname : myshortname
   show_comment_count : true
 
 
@@ -547,9 +554,7 @@ disqus :
 #     enabled : true
 #     tracking_id : UA-1234567
 analytics :
-  enabled : true
+  enabled : false
   google_analytics :
-    enabled : true
-    tracking_id : UA-7954274-6
-post_image:
-    dimensions: '870x'
+    enabled : false
+    tracking_id : UA-1234567

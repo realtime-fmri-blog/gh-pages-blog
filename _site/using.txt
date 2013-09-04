@@ -1,4 +1,0 @@
-tools
-
-jekyll build --safe
-Bootswatch --> theme

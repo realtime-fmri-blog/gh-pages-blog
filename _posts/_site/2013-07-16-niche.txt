@@ -1,5 +1,0 @@
-<img src="img/rtfmri1995.jpg" />
-
-
-The frequency of rt-fMRI hits on PubMed is exponentially increasing.
-
