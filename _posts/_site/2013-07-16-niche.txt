@@ -1,5 +1,12 @@
-<img src="img/rtfmri1995.jpg" />
+Since then the field of rt-fMRI is slowly emerging with a slow increase in published articles in the last five years. 
+
+<img src="img/Rplot1995.jpg" />
+
+<br /> 
+<br /> 
 
 
-The frequency of rt-fMRI hits on PubMed is exponentially increasing.
 
+
+<br /> 
+<br /> 
